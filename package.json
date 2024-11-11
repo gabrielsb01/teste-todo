@@ -1,5 +1,6 @@
 {
-  "name": "to-do",
+  "homepage": "https://gabrielsb01.github.io/testeTodo",
+  "name": "testeTodo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +11,9 @@
     "test:unit": "vitest",
     "preview": "vite preview",
     "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
@@ -26,6 +29,7 @@
     "@paralleldrive/cuid2": "^2.2.2",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@radix-ui/react-toggle-group": "^1.1.0",
+    "gh-pages": "^6.2.0",
     "immer": "^10.1.1",
     "lodash": "^4.17.21",
     "lucide-react": "^0.454.0",
@@ -55,9 +59,9 @@
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
+    "eslint_d": "^14.2.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
-    "eslint_d": "^14.2.2",
     "globals": "^15.11.0",
     "happy-dom": "^15.11.0",
     "husky": "^9.1.6",
