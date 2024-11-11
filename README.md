@@ -6,7 +6,7 @@ Este é um projeto inspirado no layout do aplicativo de Lembretes do iPhone, des
 
 - **Gerenciamento de Lembretes**: Criação, edição e exclusão de lembretes com interface inspirada no app de Lembretes do iPhone.
 - **Validação e Tipagem com Zod**: A biblioteca Zod é utilizada para validação de dados e geração de tipagens, garantindo a segurança dos dados no frontend.
-- **Testes Automatizados**: Testes unitários e de integração escritos com Vitest e Testing Library, localizados na pasta `_tests_`.
+- **Testes Automatizados**: Testes escritos com Vitest e Testing Library, localizados na pasta `_tests_`.
 - **Padronização de Commits**: Husky e Commitlint estão configurados para padronizar os commits de acordo com boas práticas.
 
 ## Tecnologias e Ferramentas
