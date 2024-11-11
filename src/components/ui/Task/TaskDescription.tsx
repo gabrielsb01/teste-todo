@@ -40,7 +40,7 @@ export function TaskDescription() {
         aria-multiline="true"
         className="min-h-4 w-full pl-8 text-zinc-700 outline-none group-data-[status=done]:pointer-events-none group-data-[status=done]:line-through"
         onInput={handleInput}
-        suppressContentEditableWarning={true} // Supressão do aviso do React
+        suppressContentEditableWarning={true}
       />
     </div>
   )
