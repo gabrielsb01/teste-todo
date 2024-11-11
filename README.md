@@ -27,7 +27,6 @@ Na raiz do projeto, você pode executar os seguintes comandos:
 | `npm run preview`     | Previsualiza a build de produção.                              |
 | `npm run test:unit`   | Executa todos os testes com Vitest.                            |
 | `npm run lint`        | Executa a verificação de linting para manter o código limpo.   |
-| `npm run format`      | Formata o código usando Prettier para padronização.            |
 | `npm run commit`      | Inicia um prompt interativo para criação de commits padronizados.|
 
 ## Estrutura de Pastas
