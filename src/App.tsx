@@ -1,5 +1,9 @@
+import { RouterProvider } from 'react-router-dom'
+
+import { router } from './routes'
+
 import './styles/global.css'
 
 export function App() {
-  return <div>Tela inicial do teste</div>
+  return <RouterProvider router={router} />
 }
