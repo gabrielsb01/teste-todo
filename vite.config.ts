@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/testeTodo',
+  base: '/teste-todo',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src/@types'),
