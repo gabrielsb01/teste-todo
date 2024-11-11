@@ -6,7 +6,7 @@ const taskActions = useTask.getState().actions
 
 export function TaskDescription() {
   const { task } = useTaskContext()
-  const descriptionRef = useRef(null)
+  const descriptionRef = useRef<HTMLDivElement | null>(null)
 
   const hasDescription = useTask((st) => st.data.tasks[task.id]?.description)
   const status = useTask((st) => st.data.tasks[task.id]?.status)
@@ -18,10 +18,10 @@ export function TaskDescription() {
     }
   }, [task.description])
 
-  const handleInput = (e) => {
+  const handleInput = (e: React.FormEvent<HTMLDivElement>) => { 
     const newValue = e.currentTarget.textContent
-    task.description = newValue
-    taskActions.changeDescription(task.id, newValue)
+    task.description = newValue || ''
+    taskActions.changeDescription(task.id, newValue || '')
   }
 
   return (
