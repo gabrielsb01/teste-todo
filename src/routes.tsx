@@ -6,9 +6,9 @@ import { Home } from './pages/Home'
 export const router = createBrowserRouter(
   [
     {
-      path: '/',
+      path: '/teste-todo',
       element: <BaseLayout />,
-      children: [{ path: '/', element: <Home /> }],
+      children: [{ path: '/teste-todo', element: <Home /> }],
     },
   ],
   {
